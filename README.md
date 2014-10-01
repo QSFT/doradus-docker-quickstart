@@ -20,4 +20,5 @@ Running on Docker
 2. Test
 
    Invoke this URL to list all applications under Doradus
+
    		http://$docker_host:1123/_applications
