@@ -15,9 +15,9 @@ Running on Docker
 1. Launch a container called doradus:
 
 		docker run -p 1123:1123 -d --name doradus traduong1/docker-doradus-singlecontainer
-   The -p option tells docker to bind port 1123 on the host (your laptop) to port 1123 in the container
+   The -p option tells docker to bind port 1123 on the host to port 1123 in the container
 
 2. Test
 
    Invoke this URL to list all applications under Doradus
-   		http://<docker_host>:1123/_applications
+   		http://$docker_host:1123/_applications
