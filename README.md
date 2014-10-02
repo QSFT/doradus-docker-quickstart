@@ -36,7 +36,7 @@ Running on Docker
 
 		cqlsh> describe keyspaces;
 
-	You should see the doradus keyspace
+	You should see the ‘Doradus’ keyspace in Cassandra
 
 		system  Doradus  system_traces
 		
