@@ -14,7 +14,7 @@ Running on Docker
 
 1. Launch a container called ‘doradus’:
 
-		docker run -p 1123:1123 -d --name doradus traduong1/docker-doradus-singlecontainer
+		docker run -p 1123:1123 -d --name doradus traduong1/docker-doradus-singleinstance
    The -p option tells docker to bind port 1123 on the host to port 1123 in the container
 
 2. Test
@@ -32,7 +32,7 @@ Running on Docker
 
 	Run the cqlsh tool using the IP
 		
-		docker run --rm -i -t traduong1/docker-doradus-singlecontainer cqlsh 172.17.0.14
+		docker run --rm -i -t traduong1/docker-doradus-singleinstance cqlsh 172.17.0.14
 
 		cqlsh> describe keyspaces;
 
